@@ -1,5 +1,5 @@
 {
-  "spider": "./pg.jar;md5;93278b5f3154802b9112c7a05981ba86",
+  "spider": "https://raw.githubusercontent.com/lihansong888/XRYS/main/pg.jar;md5;93278b5f3154802b9112c7a05981ba86",
   "logo": "https://cdn.pixabay.com/photo/2020/08/09/11/43/woman-5475306_1280.jpg",
   "lives": [
     
