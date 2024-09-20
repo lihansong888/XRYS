@@ -1,4 +1,4 @@
-{"spider": "https://raw.githubusercontent.com/lihansong888/XRYS/refs/heads/main/jar/dongchen.jar",
+{"spider": "./jar/dongchen.jar",
 "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 "logo": "https://qixing.myhkw.com/tw.jpg",
  "lives": [
@@ -25,7 +25,53 @@
 
 ],
 
+    "parses": [
 
+        {"name":"解析聚合","type":3,"url":"Demo"},
+        {"name":"Web聚合","type":3,"url":"Web"},
+        
+    
+
+{
+      "name": "云",
+      "type": 1,
+      "url": "http://www.mpanso.com/woaini.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    }
+
+   
+    
+
+
+
+        
+
+        
+        
+    ],
     "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
     "rules":[
         {"host":"www.iesdouyin.com","rule":["playwm/?video_id="]},
